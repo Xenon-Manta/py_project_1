@@ -1,4 +1,4 @@
-# py_project_1
+# Tools Project
 Python project.
 
 
@@ -15,3 +15,6 @@ ftp_bf.py
   
 input_validation.py
   - Starting point of a script that is designed to be run in front of other tools to validate and sanitize inputs before passing arguments on to other tools (Work In Progress). This is an automation support script.
+  
+ELK_install.sh
+  - Installs Elasticsearch and Logstash onto a Raspberry Pi for a mobile, fast, temporary logging platform.
