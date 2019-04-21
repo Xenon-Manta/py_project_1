@@ -1,11 +1,5 @@
 #This shell script will install Elsticsearch and Logstash on a Raspberry Pi with a standard
 #Debian Linux-ARM Raspian Operating System
-#It will also replace the Raspberry Pi logo with Cthulu from DesignLooter.com
-
-#Install Cthulu
-wget http://designlooter.com/images/cthulhu-svg-4.png -O cthulu.png
-sudo cp cthulu.png /usr/share/plymouth/themes/pix/splash.png
-rm cthulu.png
 
 #Update apt tables & local dependacnies
 sudo apt-get update
